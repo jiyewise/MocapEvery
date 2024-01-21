@@ -2,7 +2,7 @@
 <h1>Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera </h1>
 </p>
 
-## [Project Page](https://jiyewise.github.io/projects/MocapEvery) &nbsp;|&nbsp; [Paper](https://arxiv.org/2401.00847) 
+## [Project Page](https://jiyewise.github.io/projects/MocapEvery) &nbsp;|&nbsp; [Paper](https://arxiv.org/abs/2401.00847) 
 
 <br>
 <div align="center">
