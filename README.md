@@ -1,4 +1,3 @@
-
 <p>
 <h1>Mocap Everyone Everywhere: Lightweight Motion Capture With Smartwatches and a Head-Mounted Camera </h1>
 </p>
