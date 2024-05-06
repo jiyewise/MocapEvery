@@ -1,0 +1,34 @@
+data:
+    norm: False
+    preprocess: /data/autoencoder/data_preprocess_v1_short/
+
+model:
+    type: 'conv3'
+    num_channels: 320 # this is for conv
+    # this is for transformer
+    # hidden_dim1: 1280 # 1024
+    # hidden_dim2: 1280
+    # num_head1: 10 # 8
+    # num_head2: 10
+    # sep_encoder: True 
+    
+train:
+    batch_size: 640
+    loss_pos_weight: 1.5
+    loss_quat_weight: 1.25
+    loss_root_weight: 2
+    loss_contact_weight: 0.5
+    loss_ee_weight: 0.5
+    loss_foot_weight: 0.4
+    loss_vel_weight: 0.1
+    loss_mid_weight: 1.0
+    loss_est_weight: 0.3
+    loss_contact_weight: 0.3
+    num_epoch: 250
+    lr_decay: 0.9993
+    pretrained: ''
+    save_frequency: 4
+    loss: "l1"
+test:
+    batch_size: 128
+    num_epoch: 1

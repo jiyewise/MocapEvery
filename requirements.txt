@@ -1,0 +1,14 @@
+# install dependencies
+pyyaml
+pillow
+tqdm
+trimesh
+open3d
+opencv-python
+ipython
+scipy
+numpy==1.23.1
+matplotlib
+protobuf==3.19 
+tensorboardx
+pyopengl-accelerate

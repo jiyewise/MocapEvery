@@ -1,0 +1,10 @@
+hps_smpl/SUB1_MPI_BIB_AB_exercises.pkl
+hps_smpl/SUB1_MPI_BIB_EG_computer_stairs.pkl
+hps_smpl/SUB1_MPI_BIB_EG_long.pkl
+hps_smpl/SUB2_MPI_EG-001.pkl
+hps_smpl/SUB2_MPI_EG-004.pkl
+hps_smpl/SUB4_MPI_Etage6_eval.pkl
+hps_smpl/SUB4_MPI_Etage6_working_standing.pkl
+hps_smpl/SUB5_MPI_GEB-003.pkl
+hps_smpl/SUB6_MPI_BIB_UG_computers.pkl
+hps_smpl/SUB6_MPI_BIB_UG_long.pkl

@@ -1,0 +1,30 @@
+data:
+    preprocess: PATH_TO_PREPROCESS_PATH
+
+model:
+    hidden_dim1: 1280 
+    hidden_dim2: 1280
+    num_head1: 10 
+    num_head2: 10
+    sep_encoder: True 
+    
+train:
+    batch_size: 256
+    loss_pos_weight: 1.5
+    loss_quat_weight: 1.25
+    loss_root_weight: 1.0
+    loss_contact_weight: 0.5
+    loss_ee_weight: 0.5
+    loss_foot_weight: 0.4
+    loss_vel_weight: 0.1
+    loss_mid_weight: 1.0
+    loss_est_weight: 0.3
+    loss_contact_weight: 0.3
+    num_epoch: 250
+    lr_decay: 0.9993
+    pretrained: ''
+    save_frequency: 4
+    loss: "l1"
+test:
+    batch_size: 128
+    num_epoch: 1
