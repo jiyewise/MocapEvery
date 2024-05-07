@@ -96,7 +96,7 @@ Red character indicates initial motion from the motion estimation module, while 
         ├── hps_betas
         └── ...
     ```
-For AMASS motions, download SMPL-X (MALE) version for evaluation.
+For AMASS motions, download SMPL-H (MALE) version for evaluation.
 
 1. For quant. eval on IMU baselines (Table 1), download the pretrained model `imu_pretrained` from the [link](https://drive.google.com/drive/folders/1TJiJToLWM5FpzEkbmEbylEuG6XmnOtvY?usp=sharing) and place in the `imu2body_eval/output` folder. 
 Download the real IMU signals `TotalCapture_Real_60FPS` from the TotalCapture dataset [here](https://dip.is.tue.mpg.de/download.php). Following [Transformer Inertial Poser](https://github.com/jyf588/transformer-inertial-poser), we use the processed raw IMU signals from the DIP authors and use the SMPL poses from the TotalCapture included in [AMASS dataset](https://amass.is.tue.mpg.de/) as ground truth.
