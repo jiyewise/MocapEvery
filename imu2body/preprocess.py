@@ -64,7 +64,7 @@ def load_data_from_amass(base_dir, file_list, debug=False, custom_config=None):
 			motion_list += motion_list_bvh
 
 	elif CUR_BM_TYPE == "smplh":
-		bm_path = smplx_bm_path
+		bm_path = smplh_bm_path
 		body_model = amass_smplh.load_body_model(bm_path=bm_path)
 		skel_with_offset = amass_smplh.create_skeleton_from_amass_bodymodel(bm=body_model)	
 		skel = skel_with_offset[0]
